@@ -13,7 +13,6 @@ function reducer(state = initialState, action) {
         id: Math.random(),
         name: action.name
       };
-
       return [...state, item];
     default:
       return state;
